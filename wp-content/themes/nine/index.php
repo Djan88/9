@@ -23,6 +23,10 @@
 <script src="style/js/html5shiv.js"></script>
 <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 <![endif]-->
+<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/style/images/fav180.png">
+<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/style/images/fav32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/style/images/fav16.png">
+<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/style/images/favicon.ico">
 <?php wp_head(); ?> 
 </head>
 <body class="full-layout">
